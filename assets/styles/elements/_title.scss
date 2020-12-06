@@ -1,0 +1,110 @@
+$title-color: $blue-dark !default;
+$title-size: $size-title !default;
+$title-weight: $weight-light !default;
+$title-line-height: 1.15 !default;
+$title-strong-color: inherit !default;
+$title-strong-weight: $weight-semibold !default;
+$title-sub-size: 0.75em !default;
+$title-sup-size: 0.75em !default;
+
+$subtitle-color: $blue-dark !default;
+$subtitle-size: 1rem !default;
+$subtitle-weight: $weight-medium !default;
+$subtitle-line-height: 1.25 !default;
+$subtitle-strong-color: inherit !default;
+$subtitle-strong-weight: $weight-bold !default;
+$subtitle-negative-margin: -1rem !default;
+
+.title,
+.subtitle {
+  word-break: break-word;
+  em,
+  span {
+    font-weight: inherit;
+  }
+
+  sub {
+    font-size: $title-sub-size;
+  }
+
+  sup {
+    font-size: $title-sup-size;
+  }
+
+  .tag {
+    vertical-align: middle;
+  }
+}
+
+.title {
+  color: $title-color;
+  font-size: $size-mega;
+  font-weight: $title-weight;
+  line-height: $title-line-height;
+  margin-bottom: 1rem;
+
+  strong {
+    color: $title-strong-color;
+    font-weight: $title-strong-weight;
+  }
+
+  & + .highlight {
+    margin-top: -0.75rem;
+  }
+
+  &:not(.is-spaced) + .subtitle {
+    margin-top: $subtitle-negative-margin;
+  }
+
+  &.is-white {
+    color: rgba($white, 0.9);
+
+    strong {
+      color: rgba($white, 0.9);
+    }
+  }
+
+  @include from($tablet) {
+    font-size: $size-title;
+
+    &.is-big {
+      font-size: $size-is-big;
+    }
+  }
+}
+
+.subtitle {
+  color: $subtitle-color;
+  font-size: $subtitle-size;
+  font-weight: $subtitle-weight;
+  line-height: $subtitle-line-height;
+
+  strong {
+    color: $subtitle-strong-color;
+    font-weight: $subtitle-strong-weight;
+  }
+
+  &:not(.is-spaced) + .title {
+    margin-top: $subtitle-negative-margin;
+  }
+
+  &.is-white {
+    color: rgba($white, 0.8);
+
+    strong {
+      color: rgba($white, 0.8);
+    }
+  }
+
+}
+
+.period {
+  color: $grey;
+  margin-bottom: 1rem;
+}
+
+.text {
+  padding: 1rem 0;
+  padding-right: 1em;
+  color: $grey-light;
+}

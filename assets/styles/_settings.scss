@@ -1,0 +1,108 @@
+
+// Colors
+$black: hsl(0, 0%, 4%);
+$black-bis: hsl(0, 0%, 7%);
+$black-ter: hsl(0, 0%, 14%);
+
+$grey-darker: hsl(0, 0%, 21%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+
+$white-ter: hsl(0, 0%, 96%);
+$white-bis: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+$orange: hsl(14, 100%, 53%);
+$yellow: hsl(48, 100%, 67%);
+$green: hsl(141, 71%, 48%);
+$turquoise: hsl(171, 100%, 41%);
+$cyan: hsl(204, 86%, 53%);
+$blue: hsl(217, 71%, 53%);
+$purple: hsl(271, 100%, 71%);
+$red: hsl(348, 100%, 61%);
+
+// Custom
+$green: #03C4A1;
+$green-dark: #4C7472;
+$blue-dark: #1a202c;
+$blue-medium: #0E1D27;
+$blue-light: #DFFFFE;
+$yellow: #FFF8A4;
+// Text
+
+$text: $grey-dark;
+$text-light: $grey-light;
+
+// Links
+
+$link: $green;
+$link-hover: darken($green, 10%);
+
+// Borders
+$border: $grey;
+
+// Typography
+$family-primary: "Work Sans", "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$render-mode: optimizeLegibility;
+
+$size-is-big: 4.5rem;
+$size-title: 3.5rem;
+$size-mega: 2.5rem;
+$size-big: 2rem;
+$size-large: 1.5rem;
+$size-medium: 1.25rem;
+$size-normal: 1rem;
+$size-small: 0.75rem;
+
+$weight-extralight: 200;
+$weight-light: 300;
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+// Responsiveness
+
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 64px;
+
+$mobile: 480px;
+
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 780px;
+
+// 960px container + 4rem
+$desktop: 960px + 2 * $gap;
+
+// 1152px container + 4rem
+$widescreen: 1152px + 2 * $gap;
+$widescreen-enabled: true;
+
+// 1344px container + 4rem
+$fullhd: 1344px + 2 * $gap;
+$fullhd-enabled: true;
+
+// Miscellaneous
+
+$easing: ease-out;
+$radius-small: 2px;
+$radius: 4px;
+$radius-large: 6px;
+$radius-rounded: 290486px;
+$speed: 86ms;
+
+// Flags
+
+$variable-columns: true;
+
+// Customization
+$nav-sidebar-width: 14rem;
+
+/* Javascript export */
+:export {
+  green: $green;
+  white: $white;
+  blueDark: $blue-dark;
+}
