@@ -91,7 +91,7 @@
     <div class="content-cont">
       <div class="text-body">
         <h1 id="title-name">
-          <span id="span-title-name">T-DAWG</span>
+          <span id="span-title-name">KIDZ55</span>
           <h3 class="shine">Full stack dev</h3>
         </h1>
       </div>

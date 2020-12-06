@@ -1,20 +1,7 @@
-# memeophile
+# RETRO SYNTHWAVE RESUME
 
-## Build Setup
+My resume in a very cool 80 Retro synthwave fashion.
 
-```bash
-# install dependencies
-$ yarn install
+Written in NuxtJS with NES.css framework and some homemade fancy css.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Check it out: [https://www.kidz55.com](https://www.kidz55.com)
