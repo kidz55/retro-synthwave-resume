@@ -2,7 +2,7 @@
   <div class="resume  nes-container is-dark with-title">
     <p class="title">Curriculum Vitae</p>
     <p>
-      I've been a Fullstack developer for 5 years now. I love building and
+      I've been a Fullstack developer for almost 7 years now. I love building and
       maintaining products. I mostly work with start-ups.
     </p>
     <br />

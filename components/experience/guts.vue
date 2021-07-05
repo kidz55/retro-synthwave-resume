@@ -1,6 +1,6 @@
 <template>
   <div class="experience">
-    <div class="subtitle is-white">Medior Front-end developer at GUTS Tickets</div>
+    <div class="subtitle is-white">Front-end developer at GUTS Tickets</div>
     <div class="period">June 2019 - Now</div>
     <p>
       GUTS uses blockchain to create a fair and transparent ticketing ecosystem.

@@ -3,7 +3,7 @@
     <div class="nes-container is-dark with-title">
       <p class="title">About me</p>
       <p>
-        My name is Thibault and I'm a 31 years old French engineer living and working in Amsterdam.
+        My name is Thibault and I'm a 32 years old French engineer living and working in Amsterdam.
       </p>
       <br />
       <p>
@@ -12,11 +12,11 @@
       </p>
       <br />
       <p>
-        I'm fluent in French and English.
+        I'm fluent in French, English and Javascript.
       </p>
       <br />
       <p>
-        I have 69 victories at Call of Duty Warzone.
+        I have 121 victories at Call of Duty Warzone.
       </p>
       <br />
       <p>
